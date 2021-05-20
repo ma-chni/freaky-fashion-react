@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.search {
+  position: absolute;
+  bottom: 50%;
+  right: 65%;
+}
+
+#copyright-container {
+   margin-top:30px;
+}
+
+#footer-line {
+  background-color: lightgrey;
+  height: 1px;
+  opacity: 0.5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+#category-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+#category-btn:hover {
+  color: #64718A;
+}
+
+#category-item
+{
+  width:100%;
+  padding-right:15px;
+  padding-left:15px;
+  position:absolute;
+}
+
+#product-image
+{
+    width: 600px;
+    height: 600px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2300' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.product-info {
+  text-decoration: underline;
+}
+
+#carousel-img {
+  max-width: 800px;
+  max-height: 700px;
+}
